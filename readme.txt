@@ -46,3 +46,9 @@ This plugin is released under the GPL-3.0+ License. See [License](https://www.gn
 For transparency and compliance with WordPress guidelines, we provide access to the uncompressed versions of the files used in this plugin:
 - [select2.css](https://github.com/select2/select2/blob/develop/dist/css/select2.css)
 - [select2.js](https://github.com/select2/select2/blob/develop/dist/js/select2.js)
+
+== Third-Party Service ==
+This plugin relies on a third-party service hosted on Google Apps Script to fetch live cryptocurrency prices.
+- Service: [Google Apps Script](https://script.google.com/macros/s/AKfycbwumChWVgu1WUiLPEVuok9BZmHokEXrzqjvO8Nu-jvWBUDB48fcJfYwQiY5FHwIslMsbg/exec)
+- Terms of Use: N/A
+- Privacy Policy: N/A
