@@ -49,7 +49,7 @@ class Cryptocurrency_Price_Admin {
         <div class="wrap">
             <h2><?php _e('Cryptocurrency Settings', 'cryptocurrency-price-shortcode'); ?></h2>
             <p>
-                <?php _e('Select Source Coin:', 'cryptocurrency-price-shortcode'); ?>
+                <?php esc_html_e('Select Source Coin:', 'cryptocurrency-price-shortcode'); ?>
                 <select name="coin" id="coin" class="select2" style="width: 100%;height: 46px">
                     <?php foreach ($source_coins as $coin) : ?>
                         <option value="<?php echo esc_attr($coin['symbol']); ?>"><?php echo esc_html($coin['name']); ?></option>
@@ -57,15 +57,15 @@ class Cryptocurrency_Price_Admin {
                 </select>
             </p>
             <p>
-                <?php _e('Select Destination Currency:', 'cryptocurrency-price-shortcode'); ?>
+                <?php esc_html_e('Select Destination Currency:', 'cryptocurrency-price-shortcode'); ?>
                 <select name="currency" id="currency" class="select2" style="width: 100%;height: 46px">
                     <?php foreach ($currencies as $currency) : ?>
                         <option value="<?php echo esc_attr($currency['symbol']); ?>"><?php echo esc_html($currency['name']); ?></option>
                     <?php endforeach; ?>
                 </select>
             </p>
-            <p><?php _e('Shortcode:', 'cryptocurrency-price-shortcode'); ?> <input type="text" id="shortcode-example" disabled></p>
-            <button id="copyShortcodeBtn"><?php _e('Copy Shortcode', 'cryptocurrency-price-shortcode'); ?></button>
+            <p><?php esc_html_e('Shortcode:', 'cryptocurrency-price-shortcode'); ?> <input type="text" id="shortcode-example" disabled></p>
+            <button id="copyShortcodeBtn"><?php esc_html_e('Copy Shortcode', 'cryptocurrency-price-shortcode'); ?></button>
         </div>
         <?php
     }
