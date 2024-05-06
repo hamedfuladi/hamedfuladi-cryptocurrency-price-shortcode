@@ -3,7 +3,7 @@ if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
 
-class Cryptocurrency_Price_Admin {
+class crypcode_Admin {
 
     /**
      * Constructor. Adds actions for WordPress admin menu and script enqueuing.
@@ -71,4 +71,4 @@ class Cryptocurrency_Price_Admin {
     }
 }
 
-$cryptocurrency_price_admin_instance = new Cryptocurrency_Price_Admin();
+$crypcode_admin_instance = new crypcode_Admin();
