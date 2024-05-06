@@ -7,7 +7,7 @@
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
-class Cryptocurrency_Price_Shortcode {
+class crypcode_Shortcode {
 
     /**
      * Constructor.
@@ -95,4 +95,4 @@ class Cryptocurrency_Price_Shortcode {
     }
 }
 
-new Cryptocurrency_Price_Shortcode();
+new crypcode_Shortcode();
