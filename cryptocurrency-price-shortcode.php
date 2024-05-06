@@ -20,7 +20,7 @@ define('CRYPCODE_ASS_DIR', trailingslashit(CRYPCODE_DIR . 'assets'));
 define('CRYPCODE_URL', plugin_dir_url(__FILE__));
 define('CRYPCODE_ASS_URL', trailingslashit(CRYPCODE_URL . 'assets'));
 
-class Cryptocurrency_Price_Shortcode_Main
+class crypcode_Shortcode_Main
 {
 
     /**
@@ -69,4 +69,4 @@ class Cryptocurrency_Price_Shortcode_Main
 
 }
 
-$cryptocurrency_price_shortcode_main = new Cryptocurrency_Price_Shortcode_Main();
+$crypcode_shortcode_main = new crypcode_Shortcode_Main();
